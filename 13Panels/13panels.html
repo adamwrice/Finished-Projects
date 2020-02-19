@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<title>13 Panels</title>
+<link rel="stylesheet" type="text/css" href="13panels.css">
+</head>
+
+<body background="darkbrick.jpg" onload= init();>
+
+<script src="13panels.js"></script>
+<script src="13panelsData.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("room").scroll(function(){
+    });
+});
+</script>
+
+<div id="title">
+<center>
+<p>13 Panels</p>
+</center>
+</div> 
+
+<div id="header">
+</div>
+
+<div id="room">
+</div>
+
+<div id="player">
+	<table id="playerStats">
+		<tr>
+			<td>Name:</td><td></td>
+		</tr>
+		<tr>
+			<td>Gender:</td><td></td>
+		</tr>
+		<tr>
+			<td>Lvl:</td><td>1</td>
+		</tr>
+		<tr>
+			<td>Hp:</td><td><div class="stat-bar hp"></div></td><td>100</td>
+		</tr>
+		<tr>
+			<td>Str:</td><td><div class="stat-bar str"></div></td><td>5</td>
+		</tr>
+		<tr>
+			<td>Agl:</td><td><div class="stat-bar agl"></div></td><td>5</td>
+		</tr>
+		<tr>
+			<td>Int:</td><td><div class="stat-bar int"></div></td><td>5</td>
+		</tr>
+		<tr>
+			<td>Att:</td><td><div class="stat-bar hp"></div></td><td>8</td>
+		</tr>
+		<tr>
+			<td>Dmg:</td><td><div class="stat-bar dmg"></div></td><td>3</td>
+		</tr>
+		<tr>
+			<td>Def:</td><td><div class="stat-bar def"></div></td><td>5</td>
+		</tr>
+		<tr>
+			<td>Armor:</td><td><div class="stat-bar armor"></div></td><td>1</td>
+		</tr>
+		<tr>
+			<td>XP:</td><td><div class="stat-bar xp"></div></td><td>0</td>
+		</tr>
+	</table>
+</div>
+
+<div id="buttons">
+</div>
+
+<div id="navigatorScreen">
+</div>
+
+<div id="story">
+</div>
+
+<div id="inventory">
+</div>
+
+<div id="inventoryWrapper">
+<p>Inventory</p>
+</div>
+
+</body>
+
+</html>
